@@ -1,0 +1,21 @@
+package logos.entity.enumeration;
+
+public enum BodyType {
+	IPHONE4("IPHONE4"), IPHONE4S("IPHONE4S"), IPHONE5("IPHONE5"), IPHONE5S("IPHONE5S"),
+	IPHONE5C("IPHONE5C"), IPHONESE("IPHONESE"), IPHONE6S("IPHONE6S"), IPHONE6("IPHONE6"),
+	IPHONE7("IPHONE7"), IPHONE7S("IPHONE7S"), IPHONE8("IPHONE8"), IPHONE10("IPHONE10"),
+	IPADMINI("IPADMINI"), IPADAIR("IPADAIR"),IPADPRO("IPADPRO"), MACPRO("MACPRO"),
+	MACMINI("MACMINI"), MACBOOKAIR("MACBOOKAIR"), APPLEIMAC("APPLEIMAC"), MACBOOKPRO("MACBOOKPRO");
+	private BodyType(String title) {
+		this.title = title;
+	}
+
+	private String title;
+
+	public String getTitle() {
+		return title;
+	}
+
+	
+}
+
